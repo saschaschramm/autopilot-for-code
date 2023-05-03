@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    text-align: center;
+}
+
+.button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fly-button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo-container {
+    margin-top: 50px;
+}
+
+.spacex-logo {
+    width: 150px;
+    height: 18.75px;
+}
+
+.headline {
+    color: white;
+    margin-top: 30px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
